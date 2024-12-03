@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
-import { DragDropContext, Droppable, DropResult } from "react-beautiful-dnd";
+import { DragDropContext, DropResult } from "react-beautiful-dnd";
 import { FiSun } from "react-icons/fi";
 import { useRecoilState } from "recoil";
 import { isDarkAtom, toDoState } from "./atoms";
